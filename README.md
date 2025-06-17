@@ -13,4 +13,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 Portfolio Website Link : 
-https://portfolio-six-sable-82.vercel.app/(url[https://portfolio-six-sable-82.vercel.app/])
+https://portfolio-six-sable-82.vercel.app
