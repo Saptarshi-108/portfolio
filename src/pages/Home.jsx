@@ -119,8 +119,8 @@ const Home = () => {
           </span>
           <span className="fade-line">
             With hands-on experience in technologies like React, Node.js,
-            Express, and MongoDB,
-          </span>
+            Express and MongoDB.
+          </span><br/>
           <span className="fade-line">
             I aim to develop solutions that solve real-world problems.
             <br />
