@@ -1,0 +1,39 @@
+.btn-4 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(0, 35, 122, 0.8);
+  background: transparent;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.btn-4:before {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 50px;
+  background: #fff;
+  right: -40px;
+  top: -40px;
+  transform: rotate(37deg);
+  transition: all 0.3s;
+  opacity: 0.3;
+}
+
+.btn-4:hover:before {
+  right: 105%;
+}
+
+.btn-4:hover {
+  color: rgba(0, 35, 122, 1);
+}

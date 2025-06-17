@@ -1,19 +1,36 @@
-import React from "react";
-import {Link} from react-router-dom;
+import { Link, useLocation } from "react-router-dom";
+import "./Navbar.css";
+import "../utils/buttons.css";
 
 const Navbar = () => {
+  const location = useLocation();
+  const isResumePage = location.pathname === "/resume";
+
   return (
-    <>
-      <nav className="navbar-container">
-        <div className="navbar-layout">
-          <div className="nav-home">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/">Home</Link>
-          </div>
-        </div>
-      </nav>
-    </>
+    <nav className={`navbar ${isResumePage ? "navbar-dark" : ""}`}>
+      <ul className="navbar-list">
+        <li>
+          <Link to="/" className="btn-4">
+            Home
+          </Link>
+        </li>
+        <li>
+          <a href="#aboutme" className="btn-4">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#skill-items" className="btn-4">
+            Skills
+          </a>
+        </li>
+        <li>
+          <a href="#projects" className="btn-4">
+            Projects
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

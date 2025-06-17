@@ -1,0 +1,50 @@
+.site-footer {
+  margin-top: 10vw;
+  position: relative;
+  z-index: 2; /* ensures it's above the video */
+  background: rgba(
+    0,
+    56,
+    86,
+    0.655
+  ); /* dark translucent background for visibility */
+  color: #f0f0f0;
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 -2px 10px rgba(37, 42, 149, 0.5); /* optional for subtle separation */
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
