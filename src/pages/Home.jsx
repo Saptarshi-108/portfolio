@@ -103,36 +103,36 @@ const Home = () => {
 
       <div className="aboutme" id="aboutme">
         <h1>About Me</h1>
-        <p align="justify">
-          <span className="fade-line">
-            I am a passionate and determined Full Stack Web Developer.
-            <br />
-          </span>
-          <span className="fade-line">
-            I enjoy bringing ideas to life in the browser using clean, efficient
-            code.
-          </span>
-          <span className="fade-line">
-            My expertise lies in building scalable, responsive, and dynamic web
-            applications.
-            <br />
-          </span>
-          <span className="fade-line">
-            With hands-on experience in technologies like React, Node.js,
-            Express and MongoDB.
-          </span><br/>
-          <span className="fade-line">
-            I aim to develop solutions that solve real-world problems.
-            <br />
-          </span>
-          <span className="fade-line">
-            I also actively practice problem-solving on platforms like Leetcode
-          </span>
-          <span className="fade-line">
-            and continuously strive to improve both frontend and backend skills.
-            <br />
-          </span>
-        </p>
+      <p align="justify">
+  <span className="fade-line">
+    I am a passionate and determined Full Stack Web Developer with a deep enthusiasm for creating impactful digital experiences.
+    <br />
+  </span>
+  <span className="fade-line">
+    I love transforming ideas into interactive, user-friendly web applications using clean and efficient code.
+    <br />
+  </span>
+  <span className="fade-line">
+    My core strength lies in building scalable, responsive, and dynamic web solutions that not only function smoothly but also deliver value.
+    <br />
+  </span>
+  <span className="fade-line">
+    With hands-on experience in modern technologies like React, Node.js, Express, and MongoDB, I bring both structure and creativity to every project.
+    <br />
+  </span>
+  <span className="fade-line">
+    I strive to build real-world solutions that address practical needs and make a difference.
+    <br />
+  </span>
+  <span className="fade-line">
+    I actively sharpen my problem-solving skills on platforms like Leetcode,
+  </span>
+  <span className="fade-line">
+    and I’m constantly evolving as a developer by enhancing both my frontend and backend expertise.
+    <br />
+  </span>
+</p>
+
       </div>
 
       <div id="skill-items" className="skills">
